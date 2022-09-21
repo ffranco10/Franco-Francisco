@@ -8,12 +8,12 @@ const NavBar = () => {
         <Navbar bg="dark" variant="dark">
             <Container>
             <Navbar.Brand href="#Home">
-                Toys NERD
+                Toys Collection
                 </Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#catergorias">Categorias</Nav.Link>
-                        <Nav.Link href="#pre-orders">Pre-orders</Nav.Link>
+                        <Nav.Link href="#pre-orders">Pre-ordenes</Nav.Link>
                         <Nav.Link href="#nosotros">Nosotros</Nav.Link>
                     </Nav>
                 <CartWidget/>
