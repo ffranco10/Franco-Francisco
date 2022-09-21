@@ -5,16 +5,16 @@ import './CartWidget.css';
 
 const NavBar = () => {
     return(
-        <Navbar bg="blue" variant="dark">
+        <Navbar bg="dark" variant="dark">
             <Container>
-            <Navbar.brand href="#Home">
+            <Navbar.Brand href="#Home">
                 Toys NERD
-                </Navbar.brand>
+                </Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.link href="#home">Home</Nav.link>
-                        <Nav.link href="#catergorias">Categorias</Nav.link>
-                        <Nav.link href="#pre-orders">Pre-orders</Nav.link>
-                        <Nav.link href="#nosotros">Nosotros</Nav.link>
+                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="#catergorias">Categorias</Nav.Link>
+                        <Nav.Link href="#pre-orders">Pre-orders</Nav.Link>
+                        <Nav.Link href="#nosotros">Nosotros</Nav.Link>
                     </Nav>
                 <CartWidget/>
             </Container>
